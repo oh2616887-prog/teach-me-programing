@@ -1,0 +1,135 @@
+ body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}}
+body{
+  background-size:cover;
+  height: 99vh;
+  transition: 0.6s;
+  user-select:none;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  font-family: 'Cairo', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   user-select: none;
+   webkit-user-select: none;
+}
+.navigation {
+  display:flex;
+  justify-content: center;
+  align-content:center;
+  padding: 15px;
+  margin: 15px;
+  gap:20px;
+  border-block:1px solid rgba(255,255,255,0.433);
+  border-radius: 20px;
+  box-shadow:0.5px 0.5px 5px 0.5px rgb(255,255,255) inset;
+}
+.navigation a {
+   color: #fff;
+   text-decoration: none;
+   border: 1px solid rgba(255, 255, 255, 0.9);
+   border-radius: 15px;
+   padding: 6px 16px;
+   font-size: 14px;
+   font-weight: 500;
+   box-shadow:0.5px 0.5px 5px 0.5px rgb(255,255,255) inset;
+   transition: 0.2s;
+  -webkit-tap-highlight-color: transparent;
+}
+.navigation a:active {
+   transform: scale(0.95);
+   background: rgba(255, 255, 255, 0.2);
+}
+
+.div{
+   margin: 20px;
+   background: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 12px;
+   padding: 12px 10px;
+   min-height: 55px;
+  backdrop-filter: blur(15px);
+   background: transparent;
+   color: white;
+   border-block:1px solid rgb(255,255,255);
+   box-shadow:0.5px 0.5px 5px 0.5px rgb(255,255,255) inset;
+   border-radius:15px;
+   font-size: 10pt;
+}
+.p{
+  text-align: left;
+}
+.h2{
+  border: 1px solid    black;
+}
+hr{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  opacity: 40%;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.div1{
+   background: transparent;
+   border: none;
+    width: 90%;
+    height: 155px; /* سيب الطول ثابت عشان مياكلش مساحة الكارت */
+    color: #fff;
+    padding: 5px;
+    font-family: monospace;
+    margin-top: 15px;
+    outline: none;
+    
+"
+}
+
+.div90{
+  margin: 20px;
+   background: transparent;
+   justify-content: center;
+   align-items: center;
+   gap: 12px;
+   padding: 12px 10px;
+   min-height: 55px;
+  backdrop-filter: blur(15px);
+   background: transparent;
+   color: white;
+   border-block:1px solid rgb(255,255,255);
+   box-shadow:0.5px 0.5px 5px 0.5px rgb(255,255,255) inset;
+   border-radius:15px;
+   text-align: center;
+   transition: 1s;
+}
+.div90:hover{
+  padding-bottom:100px;
+  padding-top:220px;
+  border-block:1px solid rgba(255,255,255,0.587);
+  border-radius:20px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0.5px 0.5px 40px 0.5px rgba(255,255,255,0.704) inset;
+  background:url(معاينه.jpg);
+  background-size:cover;
+  background-position: center;
+}
+
+.div90:hover h4{
+  opacity: 0%;
+}

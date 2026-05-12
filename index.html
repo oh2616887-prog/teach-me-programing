@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="manifest" href="manifest.json">
+<meta charset="UTF-8">
+<title>علمني البرمجه</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navigation">
+   <a href="html.html">html</a>
+   <a href="css.html">css</a>
+   <a href="#about">learning</a>
+   <a href="#contact">contact </a>
+   <a href="work.html">work</a>
+</header>
+
+<br>
+<!-- Section 1: أنت مين؟ -->
+<section class="hero">
+   <h1>علمني البرمجة</h1>
+   <h2>من الموبايل للاحتراف... من غير لابتوب</h2>
+   <p>أول منصة عربية تعلمك تعمل مواقع وتطبيقات من موبايلك بس</p>
+   
+   <div class="h100">
+   <h2>مجانا</h2>
+  </div>
+</section>
+<br>
+<!-- Section 2: بتعمل إيه؟ -->
+<section id="about" class="features">
+   <h2>هتتعلم إيه معانا؟</h2>
+   
+   <div class="feature">
+      <h3>1. HTML</h3>
+      <p>لصنع هيكل الموقع او التطبيق</p>
+   </div>
+   <div class="feature">
+     <hr/>
+      <h3>2. CSS</h3>
+      <p>
+        للتحكم في شكل  الهيكل المصنوع بلغة 
+       <br>
+        HTML</p>
+   </div>
+</section>
+<br>
+<!-- Section 3: هيفيدني بإيه؟ -->
+<section  class="why-us">
+   <h2>ليه علمني البرمجة مختلف؟</h2>
+   <p>عشان اللي بيشرحلك واحد بدأ من الصفر زيك بالظبط</p>
+   <p>عشت الكود على موبايل، فـ عارف كل مشاكلك وحلولها</p>
+</section>
+<br>
+<section id="contact" class="features">
+  <h2>مستني ايه؟ كلمني فورا</h2>
+  <p>دوسة واحدة وهكون معاك على واتساب</p>
+  <br>
+  <br>
+<a href="https://wa.me/201202620451?text=أنا جاي من موقع CodeWithMe وعايز اشترك" 
+   class="contact-btn whatsapp">
+    كلمني واتساب فورا 
+    <br>
+    <span>01202620451</span>
+  </a>
+</section>
+<br>
+<div class="features">
+<h3>صنع بكل حماس وحب
+<br>
+create by omar
+</h3>
+</div>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(() => console.log("التطبيق جاهز للاستخدام!"))
+      .catch(err => console.log("فيه مشكلة في التسجيل", err));
+  }
+</script>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
